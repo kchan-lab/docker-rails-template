@@ -10,7 +10,7 @@
 $ git clone git@github.com:kchan-lab/docker-rails-template.git
 $ cd your-project
 ```
-2. Build Docker Containers & Install Gems.(API Mode)
+2. Build Docker Containers & Install Gems.
 ```
 $ docker compose build
 
