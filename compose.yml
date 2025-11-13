@@ -1,7 +1,7 @@
 services:
-  api:
+  web:
     build: .
-    container_name: minihoop-api
+    container_name: minihoop-web
     env_file: .env.local
     volumes:
       - .:/app
