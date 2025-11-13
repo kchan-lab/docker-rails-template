@@ -15,10 +15,10 @@ $ cd your-project
 $ docker compose build
 
 // Full/Default Mode
-$ docker compose run --rm web rails new . -T -d postgresql --force --skip-docker
+$ docker compose run --rm web rails new . -d postgresql --force --skip-docker
 
 // API Mode
-$ docker compose run --rm web rails new . --api -T -d postgresql --force --skip-docker
+$ docker compose run --rm web rails new . --api -d postgresql --force --skip-docker
 
 $ docker compose run --rm web bundle install
 ```
