@@ -4,6 +4,7 @@ services:
     env_file: .env.local
     volumes:
       - .:/app
+      - bundle-cache:/usr/local/bundle
     ports:
       - "3000:3000"
     depends_on:
@@ -28,3 +29,4 @@ services:
 
 volumes:
   pgdata:
+  bundle-cache:
